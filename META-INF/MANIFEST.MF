@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1436450359674
+Build-Jdk: 1.8.0_45
+Built-By: fabio
+Bundle-Activator: org.energy_home.jemma.ah.zigbee.appliances.generic.Act
+ ivator
+Bundle-Category: Automation@Home
+Bundle-ManifestVersion: 2
+Bundle-Name: ZigBee Generic Appliances
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: org.energy-home.jemma.osgi.ah.zigbee.appliances.gen
+ eric
+Bundle-Vendor: Telecom Italia
+Bundle-Version: 1.0.2
+Created-By: Apache Maven Bundle Plugin
+Import-Package: org.energy_home.jemma.ah.hac.lib;version="[3.0.0,3.1.0)"
+ ,org.energy_home.jemma.ah.zigbee.zcl.lib;version="[3.0,4)",org.osgi.fra
+ mework;version="1.3.0",org.slf4j;version="[1.6,2)",org.osgi.service.dev
+ ice;version="1.1.0",org.energy_home.jemma.ah.hac;version="[3.0,4)",org.
+ osgi.service.cm;version="[1.3,2)",org.energy_home.jemma.ah.cluster.zigb
+ ee.security;version="[3.0,4)",org.energy_home.jemma.ah.cluster.ah;versi
+ on="[3.0,4)",org.energy_home.jemma.ah.zigbee
+Require-Bundle: jemma.osgi.ah.hac.lib
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.5))"
+Tool: Bnd-2.3.0.201405100607
